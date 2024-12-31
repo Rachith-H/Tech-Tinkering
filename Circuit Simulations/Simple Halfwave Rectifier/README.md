@@ -12,11 +12,6 @@ A **half-wave rectifier** is a simple electronic circuit that converts alternati
 
 4. **Output**: The result is a pulsating DC signal, where only the positive half-cycles of the AC signal are allowed to pass through. The negative half-cycles are blocked by the diode.
 
-## Components
-
-- **Diode**: The main component that allows current to flow only during the positive half-cycle of the AC input.
-- **Load Resistor**: A resistor connected in series with the diode and the AC supply to provide the output DC signal.
-
 ## Waveform
 
 - The input is a sinusoidal AC signal, and the output is a rectified signal that only shows positive pulses corresponding to the positive half of the AC cycle.
