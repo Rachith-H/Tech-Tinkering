@@ -1,22 +1,6 @@
 # Square Wave Generator (Wien Bridge Oscillator)
 
-The **Wien Bridge Oscillator** is traditionally used to generate sine waves. However, with the right configuration, it can be modified to generate square waves directly without the need for external shaping. In this configuration, the oscillator itself produces a square wave.
-
-### Working Principle
-1. **Oscillation and Frequency Determination**:
-   - The frequency of oscillation is determined by the resistors \(R_1\) and \(R_2\) and capacitors \(C_1\) and \(C_2\) in the Wien Bridge network. The frequency is given by:
-     \[
-     f_0 = \frac{1}{2\pi \sqrt{R_1 R_2 C_1 C_2}}
-     \]
-   - The Wien Bridge Oscillator typically operates with a frequency around 1 kHz to 1 MHz, but this can be adjusted by changing the resistor and capacitor values.
-
-2. **Non-Linear Clipping**:
-   - In the Wien Bridge Oscillator, the op-amp operates in a non-linear regime, where the output is clipped as it exceeds certain voltage levels. This clipping process causes the output signal to switch between high and low voltages sharply, thereby producing a square wave.
-   - The gain of the op-amp is carefully controlled to ensure that the output signal reaches the desired voltage levels. Without proper gain control, the op-amp might either fail to oscillate or produce a distorted output.
-
-3. **Square Wave Output**:
-   - Unlike the traditional Wien Bridge Oscillator that generates sine waves, in this configuration, the output is a square wave. The sine wave produced by the op-amp is clipped at both the positive and negative peaks, converting it into a square wave.
-   - The square wave has a 50% duty cycle, with sharp transitions between high and low states.
+The **Wien Bridge Oscillator** is traditionally used to generate sine waves. However, with the right configuration, it can be modified to generate square waves directly without the need for external shaping. In this configuration, the oscillator itself produces a square wave.  
 
 ### Waveform
 - The **output waveform** is a **square wave** with the frequency determined by the RC network.
